@@ -1,16 +1,14 @@
 import "./App.css";
 import Main from "./Components/Main";
 
-function App() {
+function App(){
   return (
     <>
-      <div>
-        Dhishan
-        <h1>Hello</h1>
-        <Main>
-          <h2>Hello Friends</h2>
-        </Main>
-      </div>
+      <Main name='Dhishan' position='Web Developer' city='Galle'>
+        <p>create by Dhishan</p>
+      </Main>
+      <Main name='Chathuranga' position='UI/UX Engineer' city='Kotte'/>
+      <Main name='Chandrathilaka' position='Software Engineer' city='Rathgama'/>
     </>
   );
 }
